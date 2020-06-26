@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	 color: black;
+}
+
+.logo img{
+
+	width: 220px;
+	height: 220px;
+
+
+}
+
+.options
+{
+	margin: 0 auto;
+}
+
+.options ul{
+	 
+	 width: 100%;
+	 list-style-type: none;
+	 font-family: Arial, Helvetica, sans-serif;
+	 padding: 0;
+}
+
+.options ul li{
+	padding: 1em;
+	font-weight: bold;
+}
+
+.options ul li a:hover
+{
+   text-decoration: underline; 
+}
+
+.welcome h1{
+	font-size: 50px;
+	 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.love h2{
+	color: rgb(218,165,32);
+	 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.bread img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.para1 h3{
+ 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.popular h2
+{
+	color: rgb(218,165,32);
+	 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.treats
+{
+	display: table;   
+	margin: 0 auto;
+}
+
+.treats ul{
+	 width: 100%;
+	 list-style-type: none;
+	 padding: 0;
+}
+
+.treats ul li
+{
+	padding: 1em;
+	display: inline;
+
+}
+
+.treats ul li img
+{
+	float: left;
+    width:  300px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.para2 h3{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.bottom
+{
+
+	margin: 0 auto;
+	padding-top: 2em;
+
+}
+
+
+.bottom ul{
+
+	 width: 100%;
+	 list-style-type: none;
+	 font-family: Arial, Helvetica, sans-serif;
+	 padding: 0;
+	 padding-bottom: 1em;
+	
+}
+
+.bottom ul li{
+	padding: 1em;
+	margin: 3em;
+	background-color: rgb(218,165,32);
+	border-width: 10px;
+	border-radius: 20px;
+}
+
+.bottom ul li:hover {
+	background-color:white;
+}
+
+
+
+.bottom ul li a{
+
+	 font-weight: bold;
+	 color: white;
+
+}
+
+.bottom ul li a:hover
+{
+	 font-weight: bolder;
+	color: rgb(218,165,32);
+}
+
+
+
+@media only screen and (min-width: 680px){
+
+	.bottom
+{
+
+	display: table;   
+	margin: 0 auto;
+	padding-top: 2em;
+
+}
+
+
+.bottom ul{
+
+	 width: 100%;
+	 list-style-type: none;
+	 font-family: Arial, Helvetica, sans-serif;
+	 padding: 0;
+	 padding-bottom: 1em;
+	
+}
+
+.bottom ul li{
+	padding: 1em;
+	margin: 3em;
+	background-color: rgb(218,165,32);
+	border-width: 10px;
+	border-radius: 20px;
+	display: inline;
+}
+
+    
+}
+
+
+@media only screen and (min-width: 536px){
+
+.options
+{
+	display: table;   
+	margin: 0 auto;
+}
+
+.options ul{
+	 
+	 width: 100%;
+	 list-style-type: none;
+	 font-family: Arial, Helvetica, sans-serif;
+	 padding: 0;
+}
+
+.options ul li{
+	padding: 2em;
+	display: inline;
+}
+
+.options ul li a:hover
+{
+   text-decoration: underline; 
+   font-weight: bold;
+}
+    
+}
+
+
+
+@media only screen and (min-width: 800px){
+
+
+.treats ul{
+	 list-style-type: none;
+	 display: flex;
+}
+
+.treats ul li
+{
+	padding: 1em;
+	padding-right: 2em;
+
+}
+
+.treats ul li img
+{
+	float: left;
+    width:  225px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+}
+
+@media only screen and (min-width: 1041px){
+
+
+.treats ul{
+	 list-style-type: none;
+	 display: flex;
+}
+
+.treats ul li
+{
+	padding: 1em;
+	padding-right: 2em;
+
+}
+
+.treats ul li img
+{
+	float: left;
+    width:  300px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+}
